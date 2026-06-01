@@ -1,0 +1,145 @@
+/* BODY */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #edf2f7;
+  color: #2d3436;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #6c8ead;
+  color: white;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* PROFILE IMAGE */
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  max-width: 120px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+  border: 3px solid white;
+
+  display: block;
+}
+
+/* HEADER TEXT */
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.role {
+  margin-top: 8px;
+  color: #e7eef5;
+}
+
+.email {
+  color: #e7eef5;
+}
+
+.quote {
+  font-style: italic;
+  color: #f4f7fb;
+  max-width: 500px;
+}
+
+/* CONTAINER */
+
+.container {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* SECTION */
+
+.section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+}
+
+.section:hover {
+  transform: translateY(-3px);
+}
+
+.section h2 {
+  color: #4e7397;
+  border-bottom: 2px solid #d7e1ea;
+  padding-bottom: 8px;
+}
+
+.section p,
+.section li {
+  line-height: 1.7;
+}
+
+/* SCHOOL LOGOS */
+
+.school-logo {
+  width: 70px;
+  height: 70px;
+
+  max-width: 70px;
+  max-height: 70px;
+
+  object-fit: contain;
+
+  background-color: white;
+
+  border: 1px solid #c8d2dc;
+  border-radius: 5px;
+
+  padding: 5px;
+  margin: 10px 0;
+}
+
+/* BUTTONS */
+
+.btn {
+  background-color: #6f94b7;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+
+  padding: 10px 15px;
+
+  margin-top: 10px;
+  margin-right: 5px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #82a7c9;
+}
+
+/* NAV BUTTONS */
+
+.nav-buttons {
+  margin-top: 15px;
+}
