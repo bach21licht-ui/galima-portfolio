@@ -3,7 +3,7 @@ import brienImg from '../brien.jpg';
 function Header() {
   return (
     <div className="header">
-      <img src={brienImg} alt="Profile Photo" className="profile-img" />
+      <img src={brienImg} alt="" role="presentation" className="profile-img" />
       <div className="header-text">
         <h1>Brien Azle L. Galima</h1>
         <p className="role">STI Student · BSIT</p>
